@@ -1,0 +1,5 @@
+## Zettelkasten
+
+Flat structure
+### Stages:
+

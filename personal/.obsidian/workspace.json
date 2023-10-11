@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "d8e43d578d6865c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "b21aaf1525357787",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1aec6434a5ff89c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet/How to use Obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0d8faa57c24ea1c",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c1c5b6500cd10eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5b584d7868db268",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9b378a5a1d265bfa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0209952d8ef29134",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6106d14bcbd83f35",
+    "type": "split",
+    "children": [
+      {
+        "id": "a70656d93dc86801",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45f00b05b3b9ab00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "fleet/How to use Obsidian.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "06f5724c6630f1c2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "fleet/How to use Obsidian.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6cbe5b011e8315c5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "618e8f770088e838",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "fleet/How to use Obsidian.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1aec6434a5ff89c8",
+  "lastOpenFiles": [
+    "fleet/Data lake, data warehouse, lake house.md",
+    "fleet/How to use Obsidian.md",
+    "fleet"
+  ]
+}
