@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/Query scheduling.md",
+                "file": "fleet/SAP HANA query scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#numa",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/Query scheduling.md",
+                "file": "fleet/SAP HANA query scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/Query scheduling.md",
+                "file": "fleet/SAP HANA query scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/Query scheduling.md"
+                "file": "fleet/SAP HANA query scheduling.md"
               }
             }
           }
@@ -147,10 +146,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9b378a5a1d265bfa",
+  "active": "1aec6434a5ff89c8",
   "lastOpenFiles": [
+    "fleet/Hyper+Umbra query scheduling.md",
+    "fleet/SAP HANA query scheduling.md",
     "fleet/Data lake, data warehouse, lake house.md",
-    "fleet/Query scheduling.md",
     "fleet/Go package structure.md",
     "fleet/How to use Obsidian.md",
     "fleet"

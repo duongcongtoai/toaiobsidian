@@ -40,6 +40,6 @@ thread1 complete ts1
 thread1 update global task slot, change query1ts1 to iquery1ts2 (cas)
 thread1 goes to each of other threads's return mask and CAS to broadcast this event (i've done something, you now check and see what you can further do)
 
-tag:#queryscheduling
+#queryscheduling #numa #hyper #umbra
 
 
