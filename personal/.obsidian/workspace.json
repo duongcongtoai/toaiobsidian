@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/How to use Obsidian.md",
+                "file": "fleet/Query scheduling.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/How to use Obsidian.md",
+                "file": "fleet/Query scheduling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/How to use Obsidian.md",
+                "file": "fleet/Query scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/How to use Obsidian.md"
+                "file": "fleet/Query scheduling.md"
               }
             }
           }
@@ -146,9 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1aec6434a5ff89c8",
+  "active": "9b378a5a1d265bfa",
   "lastOpenFiles": [
     "fleet/Data lake, data warehouse, lake house.md",
+    "fleet/Query scheduling.md",
+    "fleet/Go package structure.md",
     "fleet/How to use Obsidian.md",
     "fleet"
   ]
