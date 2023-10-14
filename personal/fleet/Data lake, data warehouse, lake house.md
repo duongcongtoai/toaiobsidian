@@ -26,3 +26,5 @@ still parquet file storing historical data
 Support ACID
 
 Use case for low write through put
+
+#datalake #lakehouse #datawarehouse

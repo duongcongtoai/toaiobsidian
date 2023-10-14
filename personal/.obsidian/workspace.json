@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/SAP HANA query scheduling.md",
+                "file": "fleet/Vectorization vs query compilation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/SAP HANA query scheduling.md",
+                "file": "fleet/Vectorization vs query compilation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/SAP HANA query scheduling.md",
+                "file": "fleet/Vectorization vs query compilation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/SAP HANA query scheduling.md"
+                "file": "fleet/Vectorization vs query compilation.md"
               }
             }
           }
@@ -148,11 +148,15 @@
   },
   "active": "1aec6434a5ff89c8",
   "lastOpenFiles": [
+    "fleet/How to interpret CPU counter metric.md",
+    "fleet/Vectorization vs query compilation.md",
+    "vectorwise vs hyper.png",
     "fleet/Hyper+Umbra query scheduling.md",
-    "fleet/SAP HANA query scheduling.md",
     "fleet/Data lake, data warehouse, lake house.md",
-    "fleet/Go package structure.md",
     "fleet/How to use Obsidian.md",
+    "fleet/SIMD.md",
+    "fleet/Go package structure.md",
+    "fleet/SAP HANA query scheduling.md",
     "fleet"
   ]
 }

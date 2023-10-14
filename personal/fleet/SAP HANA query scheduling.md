@@ -21,3 +21,5 @@ NUMA thread executor is pinned on the core of the node, the reason is most of th
 Comparing to Hyper, SAP HANA states that on machine with many more socket, work stealing (thread from this node executing tasks that belong to other node aka cross node execution) is not as beneficial as having the thread work with the data available inside its local memory
 
 Using thread groups allow cores to execute other tasks instead of just queries 
+
+#SAPHANA #queryscheduling #numa  
