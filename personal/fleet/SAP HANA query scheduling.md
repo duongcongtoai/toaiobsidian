@@ -8,7 +8,7 @@ Each pool has soft and hard priority queue
 
 a separate watchdog thread to check if any pool is saturated and reassign tasks dynamically
 
-Different pool per group
+### Different pool per group
 - working
 - inactive: blocked inside the kernel inside a latch (e.g a futex causing the thread to go to sleep)
 - free: sleeps for a while, wake up see if there are tasks to execute

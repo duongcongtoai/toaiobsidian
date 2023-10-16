@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b21aaf1525357787",
+        "id": "2c83de9be2aa9a91",
         "type": "tabs",
         "children": [
           {
-            "id": "1aec6434a5ff89c8",
+            "id": "a3dec0d5a89ac7b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/Vectorization vs query compilation.md",
+                "file": "fleet/Data lake, data warehouse, lake house.md",
                 "mode": "source",
                 "source": false
               }
@@ -33,22 +33,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c5b584d7868db268",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "9b378a5a1d265bfa",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#numa",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -64,12 +54,23 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "782e43b268145f8f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 288.5
   },
   "right": {
     "id": "6106d14bcbd83f35",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/Vectorization vs query compilation.md",
+                "file": "fleet/Data lake, data warehouse, lake house.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/Vectorization vs query compilation.md",
+                "file": "fleet/Data lake, data warehouse, lake house.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/Vectorization vs query compilation.md"
+                "file": "fleet/Data lake, data warehouse, lake house.md"
               }
             }
           }
@@ -133,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,17 +146,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1aec6434a5ff89c8",
+  "active": "a3dec0d5a89ac7b1",
   "lastOpenFiles": [
-    "fleet/How to interpret CPU counter metric.md",
-    "fleet/Vectorization vs query compilation.md",
-    "vectorwise vs hyper.png",
-    "fleet/Hyper+Umbra query scheduling.md",
-    "fleet/Data lake, data warehouse, lake house.md",
-    "fleet/How to use Obsidian.md",
-    "fleet/SIMD.md",
     "fleet/Go package structure.md",
+    "fleet/Hyper+Umbra query scheduling.md",
+    "fleet/Parallel hash join.md",
     "fleet/SAP HANA query scheduling.md",
+    "Templates/Note.md",
+    "fleet/Untitled.md",
+    "fleet/How to use Obsidian.md",
+    "Templates",
+    "2023-10-16.md",
+    "Untitled.canvas",
+    "Radix partition.png",
+    "vectorwise vs hyper.png",
+    "fleet/Vectorization vs query compilation.md",
+    "fleet/SIMD.md",
+    "fleet/How to interpret CPU counter metric.md",
+    "fleet/Data lake, data warehouse, lake house.md",
     "fleet"
   ]
 }
