@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/Data lake, data warehouse, lake house.md",
+                "file": "fleet/How to use Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,8 +86,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/Data lake, data warehouse, lake house.md",
-                "collapseAll": false,
+                "file": "fleet/How to use Obsidian.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/Data lake, data warehouse, lake house.md",
+                "file": "fleet/How to use Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/Data lake, data warehouse, lake house.md"
+                "file": "fleet/How to use Obsidian.md"
               }
             }
           }
@@ -148,10 +148,13 @@
   },
   "active": "a3dec0d5a89ac7b1",
   "lastOpenFiles": [
+    "permanent",
+    "literatures",
+    "literatures/Data lake, data warehouse, lake house.md",
     "fleet/Go package structure.md",
-    "fleet/Hyper+Umbra query scheduling.md",
-    "fleet/Parallel hash join.md",
-    "fleet/SAP HANA query scheduling.md",
+    "literatures/Hyper+Umbra query scheduling.md",
+    "literatures/Parallel hash join.md",
+    "literatures/SAP HANA query scheduling.md",
     "Templates/Note.md",
     "fleet/Untitled.md",
     "fleet/How to use Obsidian.md",
@@ -160,10 +163,9 @@
     "Untitled.canvas",
     "Radix partition.png",
     "vectorwise vs hyper.png",
-    "fleet/Vectorization vs query compilation.md",
+    "literatures/Vectorization vs query compilation.md",
     "fleet/SIMD.md",
     "fleet/How to interpret CPU counter metric.md",
-    "fleet/Data lake, data warehouse, lake house.md",
     "fleet"
   ]
 }
