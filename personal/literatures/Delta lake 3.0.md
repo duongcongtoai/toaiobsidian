@@ -1,0 +1,1 @@
+https://delta.io/blog/delta-lake-3-0/
