@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literatures/Query scheduling in Datafusion.md",
+                "file": "literatures/Worst case optimal join.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "literatures/Query scheduling in Datafusion.md",
+                "file": "literatures/Worst case optimal join.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "literatures/Query scheduling in Datafusion.md",
+                "file": "literatures/Worst case optimal join.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "literatures/Query scheduling in Datafusion.md"
+                "file": "literatures/Worst case optimal join.md"
               }
             }
           }
@@ -197,9 +197,14 @@
   },
   "active": "b77de77e6c68e87a",
   "lastOpenFiles": [
+    "Pasted image 20231023214055.png",
+    "Pasted image 20231023212022.png",
+    "Pasted image 20231023211953.png",
+    "fleet/Read through datafusion code.md",
+    "literatures/Worst case optimal join.md",
+    "literatures/Query scheduling in Datafusion.md",
     "literatures/Delta lake 3.0.md",
     "literatures/Datafusion datatypes.md",
-    "literatures/Query scheduling in Datafusion.md",
     "literatures/Datafusion learning.md",
     "literatures/Vectorizaation in Datafusion.md",
     "literatures/Hash join in Datafusion.md",
