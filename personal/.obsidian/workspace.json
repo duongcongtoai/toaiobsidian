@@ -8,67 +8,79 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3dec0d5a89ac7b1",
+            "id": "f43ab3a9755fda33",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literatures/Datafusion learning.md",
+                "file": "fleet/Datafusion Logical Plan node type.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b77de77e6c68e87a",
+            "id": "073448aac6afe0fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literatures/Worst case optimal join.md",
+                "file": "fleet/Read through datafusion code.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c08ab87635665a19",
+            "id": "0532dae9488961fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literatures/Datafusion datatypes.md",
+                "file": "fleet/QueryPlaner Create Physical Plan.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4be794b585bfbc88",
+            "id": "166234215f3be6d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literatures/Vectorizaation in Datafusion.md",
+                "file": "fleet/Datafusion Logical Plan node type.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bb64af6392879654",
+            "id": "6a1ef5c6b84fbe30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literatures/Hash join in Datafusion.md",
+                "file": "fleet/Workspace for rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "77e87061a73f83ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet/Understand how pin works in Rust.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -87,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "TableSca",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -135,14 +147,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "literatures/Worst case optimal join.md",
+                "file": "fleet/Understand how pin works in Rust.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -152,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "literatures/Worst case optimal join.md",
+                "file": "fleet/Understand how pin works in Rust.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "literatures/Worst case optimal join.md"
+                "file": "fleet/Understand how pin works in Rust.md"
               }
             }
           }
@@ -195,13 +207,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b77de77e6c68e87a",
+  "active": "77e87061a73f83ed",
   "lastOpenFiles": [
+    "fleet/Workspace for rust.md",
+    "fleet/Understand how pin works in Rust.md",
+    "fleet/Datafusion TableScan.md",
+    "fleet/Datafusion Logical Plan node type.md",
+    "fleet/QueryPlaner Create Physical Plan.md",
+    "fleet/Read through datafusion code.md",
+    "fleet/Rust static lifetime usage.md",
+    "literatures/Worst case optimal join.md",
     "Pasted image 20231023214055.png",
     "Pasted image 20231023212022.png",
     "Pasted image 20231023211953.png",
-    "fleet/Read through datafusion code.md",
-    "literatures/Worst case optimal join.md",
     "literatures/Query scheduling in Datafusion.md",
     "literatures/Delta lake 3.0.md",
     "literatures/Datafusion datatypes.md",
@@ -226,7 +244,6 @@
     "vectorwise vs hyper.png",
     "literatures/Vectorization vs query compilation.md",
     "fleet/SIMD.md",
-    "fleet/How to interpret CPU counter metric.md",
     "fleet"
   ]
 }

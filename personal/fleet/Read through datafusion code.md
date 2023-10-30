@@ -2,6 +2,10 @@
 Created: 2023-10-22
 ## fn create_physical_plan
 convert logical plan to physical plan
+is a method from SessionState
+
+optimize logical plan then call create_physical_plan over the logical plan
+[[QueryPlaner Create Physical Plan]]
 ## Understand ExecutionPlan trait and its method
 
 ## SendableRecordBatchStream
