@@ -51,6 +51,8 @@ moved_some_future {
 ```
 This is invalid because b now points to a moved location
 Pin syntax allow these types to be safe from this self-referential nature of themselves
+### When is a future start to be pinned?
+from the time it get polled for the first time, or by the time it is created (by its self-referential nature)
 ### What is pin project?
 
 ## References

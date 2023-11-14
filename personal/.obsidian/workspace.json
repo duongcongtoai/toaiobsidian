@@ -73,14 +73,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/Understand how pin works in Rust.md",
+                "file": "fleet/Datafusion TableScan.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "566c9668afec85b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet/Derivative.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -147,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/Understand how pin works in Rust.md",
+                "file": "fleet/Derivative.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/Understand how pin works in Rust.md",
+                "file": "fleet/Derivative.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/Understand how pin works in Rust.md"
+                "file": "fleet/Derivative.md"
               }
             }
           }
@@ -207,11 +219,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "77e87061a73f83ed",
+  "active": "566c9668afec85b7",
   "lastOpenFiles": [
-    "fleet/Workspace for rust.md",
-    "fleet/Understand how pin works in Rust.md",
     "fleet/Datafusion TableScan.md",
+    "fleet/Derivative.md",
+    "fleet/Understand how pin works in Rust.md",
+    "fleet/Workspace for rust.md",
     "fleet/Datafusion Logical Plan node type.md",
     "fleet/QueryPlaner Create Physical Plan.md",
     "fleet/Read through datafusion code.md",
@@ -243,7 +256,6 @@
     "Radix partition.png",
     "vectorwise vs hyper.png",
     "literatures/Vectorization vs query compilation.md",
-    "fleet/SIMD.md",
     "fleet"
   ]
 }

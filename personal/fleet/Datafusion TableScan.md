@@ -32,6 +32,11 @@ supports_filter_pushdown
 This method is useful on optimizor
 Why 
 
+### Partitioned by column
+
+set data source as a folder
+partitioned column follows the syntax
+col1=somevalue/col2=someothervalue
 
 ## References
 1. 
