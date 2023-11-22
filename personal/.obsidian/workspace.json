@@ -8,91 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f43ab3a9755fda33",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleet/Datafusion Logical Plan node type.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "073448aac6afe0fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleet/Read through datafusion code.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0532dae9488961fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleet/QueryPlaner Create Physical Plan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "166234215f3be6d3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleet/Datafusion Logical Plan node type.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a1ef5c6b84fbe30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleet/Workspace for rust.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77e87061a73f83ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleet/Datafusion TableScan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "566c9668afec85b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/Derivative.md",
+                "file": "fleet/Machine learning the basic.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TableSca",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/Derivative.md",
+                "file": "fleet/Machine learning the basic.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/Derivative.md",
+                "file": "fleet/Machine learning the basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/Derivative.md"
+                "file": "fleet/Machine learning the basic.md"
               }
             }
           }
@@ -221,14 +148,15 @@
   },
   "active": "566c9668afec85b7",
   "lastOpenFiles": [
-    "fleet/Datafusion TableScan.md",
-    "fleet/Derivative.md",
+    "fleet/QueryPlaner Create Physical Plan.md",
     "fleet/Understand how pin works in Rust.md",
     "fleet/Workspace for rust.md",
     "fleet/Datafusion Logical Plan node type.md",
-    "fleet/QueryPlaner Create Physical Plan.md",
-    "fleet/Read through datafusion code.md",
+    "fleet/Database network optimization.md",
     "fleet/Rust static lifetime usage.md",
+    "fleet/Machine learning the basic.md",
+    "fleet/Datafusion TableScan.md",
+    "fleet/Read through datafusion code.md",
     "literatures/Worst case optimal join.md",
     "Pasted image 20231023214055.png",
     "Pasted image 20231023212022.png",
@@ -255,7 +183,6 @@
     "Untitled.canvas",
     "Radix partition.png",
     "vectorwise vs hyper.png",
-    "literatures/Vectorization vs query compilation.md",
     "fleet"
   ]
 }
