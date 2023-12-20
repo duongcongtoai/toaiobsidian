@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/Machine learning the basic.md",
+                "file": "literatures/Datafusion learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17bbcd4fb53f9f36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "literatures/Statistic framework.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/Machine learning the basic.md",
+                "file": "literatures/Datafusion learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/Machine learning the basic.md",
+                "file": "literatures/Datafusion learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/Machine learning the basic.md"
+                "file": "literatures/Datafusion learning.md"
               }
             }
           }
@@ -148,13 +160,16 @@
   },
   "active": "566c9668afec85b7",
   "lastOpenFiles": [
+    "literatures/Statistic framework.md",
+    "literatures/Datafusion learning.md",
+    "fleet/Database statistics.md",
+    "fleet/Machine learning the basic.md",
     "fleet/QueryPlaner Create Physical Plan.md",
     "fleet/Understand how pin works in Rust.md",
     "fleet/Workspace for rust.md",
     "fleet/Datafusion Logical Plan node type.md",
     "fleet/Database network optimization.md",
     "fleet/Rust static lifetime usage.md",
-    "fleet/Machine learning the basic.md",
     "fleet/Datafusion TableScan.md",
     "fleet/Read through datafusion code.md",
     "literatures/Worst case optimal join.md",
@@ -164,7 +179,6 @@
     "literatures/Query scheduling in Datafusion.md",
     "literatures/Delta lake 3.0.md",
     "literatures/Datafusion datatypes.md",
-    "literatures/Datafusion learning.md",
     "literatures/Vectorizaation in Datafusion.md",
     "literatures/Hash join in Datafusion.md",
     "fleet/Stacked diff.md",
@@ -177,9 +191,7 @@
     "literatures/Hyper+Umbra query scheduling.md",
     "literatures/Parallel hash join.md",
     "literatures/SAP HANA query scheduling.md",
-    "Templates/Note.md",
     "Templates",
-    "2023-10-16.md",
     "Untitled.canvas",
     "Radix partition.png",
     "vectorwise vs hyper.png",
