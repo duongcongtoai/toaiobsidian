@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "7e604e7fa06af6e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "71a12326a956943c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a86a90323fd5d9a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal/literatures/Datafusion learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79477d54c203f602",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistic framework.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60b62fd92313d540",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal/fleet/Workspace for rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a75ff182328be3fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal/literatures/Query scheduling in Datafusion.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28ec5f929ed86950",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "personal/fleet/Workspace for rust.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cef1565425c48487",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f0f02543559608f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37f50af83ad04a40",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ed7751743e54922d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "rust",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9d76c3946bd11167",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e8b176c44a26c44d",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8cf67b71ddfbdbe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "afd5fa6167ce2baa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Statistic framework.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "42c3e584d347f4c5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Statistic framework.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c5d6babe707d2044",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "94a074313eb38dbf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Statistic framework.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "79477d54c203f602",
+  "lastOpenFiles": [
+    "personal/literatures/Datafusion learning.md",
+    "personal/fleet/Workspace for rust.md",
+    "Statistic framework.md",
+    "personal/literatures/Query scheduling in Datafusion.md",
+    "personal/literatures/Worst case optimal join.md",
+    "personal/literatures/Statistic framework.md",
+    "personal/fleet/Understand how pin works in Rust.md",
+    "personal/fleet/Rust static lifetime usage.md",
+    "personal/fleet/Read through datafusion code.md",
+    "personal/fleet/QueryPlaner Create Physical Plan.md",
+    "personal/fleet/Machine learning the basic.md",
+    "personal/fleet/Datafusion TableScan.md",
+    "personal/fleet/Datafusion Logical Plan node type.md",
+    "personal/fleet/Database statistics.md",
+    "personal/fleet/Database network optimization.md",
+    "personal/Pasted image 20231023214055.png",
+    "personal/Pasted image 20231023212022.png",
+    "personal/Pasted image 20231023211953.png",
+    "personal/literatures/Parallel hash join.md",
+    "personal/literatures/Vectorizaation in Datafusion.md",
+    "personal/literatures/Query compilation in Datafusion.md",
+    "personal/literatures/Hash join in Datafusion.md",
+    "personal/literatures/Datafusion datatypes.md",
+    "personal/fleet/Stacked diff.md",
+    "personal/literatures/Vectorization vs query compilation.md",
+    "personal/Radix partition.png",
+    "personal/literatures/SAP HANA query scheduling.md",
+    "personal/literatures/Hyper+Umbra query scheduling.md",
+    "personal/literatures/Delta lake 3.0.md",
+    "personal/literatures/Data lake, data warehouse, lake house.md"
+  ]
+}
