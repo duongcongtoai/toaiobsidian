@@ -3,4 +3,4 @@
 [[Query scheduling in Datafusion]]
 [[Query compilation in Datafusion]]
 [[Vectorizaation in Datafusion]]
-[[Statistic framework]]
+[[personal/fleet/Statistic framework]]

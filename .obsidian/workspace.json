@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistic framework.md",
+                "file": "personal/fleet/Statistic framework.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rust",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistic framework.md",
+                "file": "personal/fleet/Statistic framework.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistic framework.md",
+                "file": "personal/fleet/Statistic framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistic framework.md"
+                "file": "personal/fleet/Statistic framework.md"
               }
             }
           }
@@ -196,11 +195,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79477d54c203f602",
+  "active": "37f50af83ad04a40",
   "lastOpenFiles": [
+    "README.md",
+    "personal/fleet/Statistic framework.md",
     "personal/literatures/Datafusion learning.md",
     "personal/fleet/Workspace for rust.md",
-    "Statistic framework.md",
     "personal/literatures/Query scheduling in Datafusion.md",
     "personal/literatures/Worst case optimal join.md",
     "personal/literatures/Statistic framework.md",
@@ -226,7 +226,6 @@
     "personal/Radix partition.png",
     "personal/literatures/SAP HANA query scheduling.md",
     "personal/literatures/Hyper+Umbra query scheduling.md",
-    "personal/literatures/Delta lake 3.0.md",
-    "personal/literatures/Data lake, data warehouse, lake house.md"
+    "personal/literatures/Delta lake 3.0.md"
   ]
 }

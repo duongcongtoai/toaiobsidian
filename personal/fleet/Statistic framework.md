@@ -110,3 +110,4 @@ given_range is initially \[true,true\]
 
 TODO: review this function
 find a way to trigger this function from cli for debug (PS: using a test called test_custom_filter_selectivity)
+This function does not call analyze because the predicate/schema does not support stat estimation
