@@ -20,18 +20,65 @@
             }
           },
           {
+            "id": "8436493482e819a4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
+          },
+          {
             "id": "17bbcd4fb53f9f36",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "literatures/Statistic framework.md",
+                "file": "fleet/Implement unnest.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dd37741f1691eca8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet/Implement unnest.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f694510f2bc62297",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet/Predicate pruning techniques in OLAP system.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ebd3bbcbce77493d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet/Predicate pruning techniques in OLAP system.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -98,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "literatures/Datafusion learning.md",
+                "file": "fleet/Predicate pruning techniques in OLAP system.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "literatures/Datafusion learning.md",
+                "file": "fleet/Predicate pruning techniques in OLAP system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "literatures/Datafusion learning.md"
+                "file": "fleet/Predicate pruning techniques in OLAP system.md"
               }
             }
           }
@@ -158,18 +205,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "566c9668afec85b7",
+  "active": "ebd3bbcbce77493d",
   "lastOpenFiles": [
+    "Pasted image 20240528110711.png",
+    "fleet/Parquet.md",
+    "fleet/QueryPlaner Create Physical Plan.md",
+    "fleet/Predicate pruning techniques in OLAP system.md",
+    "fleet/Implement unnest.md",
+    "fleet/Workspace for rust.md",
+    "fleet/Bond.md",
+    "fleet/How to use Obsidian.md",
+    "fleet/Database network optimization.md",
+    "fleet/Rust static lifetime usage.md",
     "literatures/Statistic framework.md",
     "literatures/Datafusion learning.md",
     "fleet/Database statistics.md",
     "fleet/Machine learning the basic.md",
-    "fleet/QueryPlaner Create Physical Plan.md",
     "fleet/Understand how pin works in Rust.md",
-    "fleet/Workspace for rust.md",
     "fleet/Datafusion Logical Plan node type.md",
-    "fleet/Database network optimization.md",
-    "fleet/Rust static lifetime usage.md",
     "fleet/Datafusion TableScan.md",
     "fleet/Read through datafusion code.md",
     "literatures/Worst case optimal join.md",
@@ -183,14 +236,8 @@
     "literatures/Hash join in Datafusion.md",
     "fleet/Stacked diff.md",
     "literatures/Query compilation in Datafusion.md",
-    "fleet/How to use Obsidian.md",
     "permanent",
     "literatures",
-    "literatures/Data lake, data warehouse, lake house.md",
-    "fleet/Go package structure.md",
-    "literatures/Hyper+Umbra query scheduling.md",
-    "literatures/Parallel hash join.md",
-    "literatures/SAP HANA query scheduling.md",
     "Templates",
     "Untitled.canvas",
     "Radix partition.png",
