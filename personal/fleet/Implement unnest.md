@@ -1,50 +1,47 @@
 ## Usecase
-```
-select unnest(struct_col) from sometable
-```
 
+unnest(column) used inside predicate
 ```
-select struct_col.subfield from sometable
-```
-
-```
-select struct from sometable, unnest(struct_arr) as struct
-```
-
-Current problem
-Rewriting
-```
-rewriting plan Unnest: 0
-  Projection: unnest_table.column1 AS unnest(unnest_table.column1)
-    TableScan: unnest_table
----
-Give its new expr [Column(Column { relation: None, name: "name0" })]
----
-and new input [Projection: unnest_table.column1 AS unnest(unnest_table.column1)
-  TableScan: unnest_table]
-==========
-External error: query failed: DataFusion error: type_coercion
+select * from adlog where unnest(sub_request)['id'] = '1';
+type_coercion
 caused by
-Schema error: No field named name0. Valid fields are "unnest(unnest_table.column1)".
-[SQL] select unnest(column1) from unnest_table;
-at test_files/unnest_debug.slt:29
+This feature is not implemented: Unnest should be rewritten to LogicalPlan::Unnest before type coercion
+```
+
+support unnest in subquery
+```
+            select unnest(sub_request) as sub_req, unnest(auctioning)['competitors'] as competitors from adlog 
+            where exists (
+                select * from adlog where unnest(sub_request)['id'] = '1';
+            )
+```
+
+support multiple unnest in from clause
+```
+D select a1,b1 from a, unnest(a.a) as a1, unnest(a.b) as b1;
+┌───────────────────┬───────────────────┐
+│        a1         │        b1         │
+│ struct(a integer) │ struct(b integer) │
+├───────────────────┼───────────────────┤
+│ {'a': 2}          │ {'b': 4}          │
+│ {'a': 2}          │ {'b': 5}          │
+│ {'a': 2}          │ {'b': 6}          │
+│ {'a': 9}          │ {'b': 10}         │
+│ {'a': 9}          │ {'b': 10}         │
+│ {'a': 1}          │ {'b': 4}          │
+│ {'a': 1}          │ {'b': 5}          │
+│ {'a': 1}          │ {'b': 6}          │
+│ {'a': 3}          │ {'b': 4}          │
+│ {'a': 3}          │ {'b': 5}          │
+│ {'a': 3}          │ {'b': 6}          │
+├───────────────────┴───────────────────┤
+│ 11 rows                     2 columns │
 
 ```
-new expr is the result after calling unnest node to iterate through each of its expression and apply some rewrite function in type_coersion node
-Some how new expr returns the unnested column and passed down to the input, which does not have this column in the schema
-```
-rewriting plan Projection: unnest_table.column1 AS unnest(unnest_table.column1)
-  TableScan: unnest_table
----
-Give its new expr [Alias(Alias { expr: Column(Column { relation: Some(Bare { table: "unnest_table" }), name: "column1" }), relation: None, name: "unnest(unnest_table.column1)" })]
-```
-maybe at the time projection is rewritten, also detect if a unnest is an expr inside, consider to give projection new input of unnest
+May have to rewrite unnest in plan_selection
+
+Revisit: https://github.com/apache/datafusion/pull/9069/files
 
 
-Current error found
-        select subreq, unnest(auc) from (
-            select unnest(sub_request) as subreq, unnest(auctioning)['competitors'] as auc from adlog 
-            limit 1
-        )
 
-Arrow error: Invalid argument error: all columns in a record batch must have the same length
+[[Recursive unnest]]
