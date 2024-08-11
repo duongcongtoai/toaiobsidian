@@ -28,6 +28,12 @@ Because the memory of values `[1,26,51,76]` and `delta[0,25,50,75]` are continou
 For each bit kth in the values, create a separate columns to determine if the bit kth of the value is set or not. 
 ![[Pasted image 20240714120116.png]]
 
+## Bitweaving
+Efficient predicate evaluation on compressed data using SIMD
+- order-preserving dictionary encoding
+- bit-level parallelism
+- only require
+
 ## Pseudodecimals
 ## FSST
 ## Roaring bitmap

@@ -105,7 +105,146 @@ projection: structcol.field_access(fieldname) as arr_field
 ```
 transforming expr: Unnest(Unnest { expr: ScalarFunction(ScalarFunction { func: ScalarUDF { inner: GetFieldFunc { signature: Signature { type_signature: Any(2), volatility: Immutable } } }, args: [Unnest(Unnest { expr: Column(Column { relation: None, name: "column1" }) }), Literal(Utf8("c0"))] }) })
 ```
-	
+
+## DuckDB Recursive unnest
+Note: unnest has a big difference in behavior between Postgres and D
+Take this example
+1.Postgres
+```ignored
+ate table temp (
+ i integer[][][], j integer[]
+
+ert into temp values ('{{{1,2},{3,4}},{{5,6},{7,8}}}', '{1,2}');
+ect unnest(i), unnest(j) from temp;
+```
+
+Result
+    1	1
+    2	2
+    3	
+    4	
+    5	
+    6	
+    7	
+    8	
+2. DuckDB
+```ignore
+    create table temp (i integer[][][], j integer[]);
+    insert into temp values ([[[1,2],[3,4]],[[5,6],[7,8]]], [1,2]);
+    select unnest(i,recursive:=true), unnest(j,recursive:=true) from
+```
+Result:
+
+    ┌────────────────────────────────────────────────┬──────────────
+    │ unnest(i, "recursive" := CAST('t' AS BOOLEAN)) │ unnest(j, "re
+    │                     int32                      │              
+    ├────────────────────────────────────────────────┼──────────────
+    │                                              1 │              
+    │                                              2 │              
+    │                                              3 │              
+    │                                              4 │              
+    │                                              5 │              
+    │                                              6 │              
+    │                                              7 │              
+    │                                              8 │              
+    └────────────────────────────────────────────────┴──────────────
+The following implementation refer to DuckDB's implementation
+
+
+### The steps as followed
+
+Given the operator definition as followed
+
+given columsn: col1 `integer[][][]`, col2 `integer[]`
+
+And unnest operation as followed
+select unnest(col1,depth=3), unnest(col1,depth=1), unnest(col2, depth =1)
+Will be equivalent to
+
+unnest(depth_2_col1), unnest(col1), unnest(col2) from (
+	select unnest(dept_1_col1),col1,col2 as depth_2_col1 from (
+		select unnest(col1),col1,col2 as depth_1_col2
+	)
+)
+
+Note that unnest on depth1 is performed at the outer most select, which means the inner column must be projected through out the inner subqueries
+
+Thus the algorithm is as followed
+
+Determine the highest unnest level
+
+current depth = highest unnest level
+For current depth > 0:
+	for each (col_i , depth) in columns_to_unnest
+		if depth == current depth 
+			`temp[(depth,col)` = unnest(col_i)
+		if depth > current_depth
+			previous = `temp[(depth,col)]`
+			`temp[(depth,col)]` = unnest(previous)
+		
+
+Given a batch of 
+```
+-----------------------------
+|col1         | col2|
+|integer[][][]| integer[]|
+----------------------------
+_            | _ 
+_            | _ 
+_            | _ 
+-----------------------------
+```
+First loop will result
+
+into a batch with the same schema, but with more rows (because of the copy during unnest)
+and a temp batch as 
+```
+|depth=3,col1|
+|integer[][] |
+---------
+_            |
+_            |
+_            |
+-------
+```
+
+Second loop
+```
+| depth=3,col1|
+| integer[]   |
+--------
+_             |
+_             |
+_             |
+--------------
+```
+
+Third loop
+```
+| depth=3,col1| depth=1,col1 | depth=1,col2  |
+| integer     | integer[][]  | integer       |
+---------------------------------------------
+_             |_             |_              |
+_             |_             |_              |
+_             |_             |_              |
+_             |_             |_              |
+```
+Now combine the transformed batch with the schema
+for index, col in batch
+	if unnest belongs to a column to be unnested
+		replace col with (unnested_cols)
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## References
 1. 
