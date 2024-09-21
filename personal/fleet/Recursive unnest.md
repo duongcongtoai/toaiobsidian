@@ -242,9 +242,43 @@ for index, col in batch
 
 
 
+```
+Aggregate: groupBy=[[unnest_placeholder(make_array(Int64(1),Int64(2),Int64(3)),depth=1)]], aggr=[[]]
+  Unnest: lists[unnest_placeholder(make_array(Int64(1),Int64(2),Int64(3)))|depth=1] structs[]
+    Projection: make_array(Int64(1), Int64(2), Int64(3)) AS unnest_placeholder(make_array(Int64(1),Int64(2),Int64(3)))
+      EmptyRelation
+
+from this input select
+singular unnest [Alias(Alias { expr: Column(Column { relation: None, name: "UNNEST(make_array(Int64(1),Int64(2),Int64(3)))" }), relation: None, name: "c1" })]
+```
+Prev
+```
+input Aggregate: groupBy=[[UNNEST(UNNEST(UNNEST(make_array(make_array(make_array(Int64(1)))))))]], aggr=[[]]
+  Unnest: lists[UNNEST(UNNEST(UNNEST(make_array(make_array(make_array(Int64(1)))))))] structs[]
+    Projection: UNNEST(UNNEST(make_array(make_array(make_array(Int64(1)))))) AS UNNEST(UNNEST(UNNEST(make_array(make_array(make_array(Int64(1)))))))
+      Unnest: lists[UNNEST(UNNEST(make_array(make_array(make_array(Int64(1))))))] structs[]
+```
+```
+select exprs [Alias(Alias { expr: Column(Column { relation: None, name: "UNNEST(UNNEST(UNNEST(make_array(make_array(make_array(Int64(1)))))))" }), relation: None, name: "c1" })]
+```
+
+More complex case
+```
+statement ok
+CREATE TABLE temp
+AS VALUES
+    ([1,2,3],1,[9,10]),
+    ([1,2,3],2,[11,12]),
+    ([4,5,6],2,[13,14])
 
 
+query TT
+explain select unnest(column1), unnest(column3) c3 from temp group by c3, column1;
+----
+```
 
+TODO:
+make try_process_unnest_group only transform for interested unnest expr, not all of them
 
 ## References
 1. 

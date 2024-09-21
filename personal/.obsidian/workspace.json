@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/OLAP encoding scheme.md",
+                "file": "fleet/Predicate pruning techniques in OLAP system.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,16 +23,13 @@
             "id": "3bd1aa13854f85d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "fleet/Recursive unnest.md",
-                "mode": "source",
-                "source": true
+                "file": "Pasted image 20240528110711.png"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -51,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "recursive",
+                "query": "row group",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/Recursive unnest.md",
+                "file": "fleet/Predicate pruning techniques in OLAP system.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/Recursive unnest.md",
+                "file": "fleet/Predicate pruning techniques in OLAP system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/Recursive unnest.md"
+                "file": "fleet/Predicate pruning techniques in OLAP system.md"
               }
             }
           }
@@ -159,23 +156,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3bd1aa13854f85d2",
+  "active": "17bbcd4fb53f9f36",
   "lastOpenFiles": [
-    "Pasted image 20240714120116.png",
+    "Pasted image 20240921091933.png",
     "fleet/OLAP encoding scheme.md",
+    "Pasted image 20240528110711.png",
+    "fleet/Predicate pruning techniques in OLAP system.md",
+    "fleet/Recursive unnest.md",
+    "Pasted image 20240714120116.png",
     "fleet/Implement unnest.md",
     "literatures/SAP HANA query scheduling.md",
-    "fleet/Recursive unnest.md",
     "fleet/Workspace for rust.md",
     "fleet/Machine learning the basic.md",
     "fleet/Go package structure.md",
     "fleet/Parquet.md",
-    "fleet/Predicate pruning techniques in OLAP system.md",
     "fleet/QueryPlaner Create Physical Plan.md",
     "fleet/Read through datafusion code.md",
     "fleet/Rust static lifetime usage.md",
     "fleet/Statistic framework.md",
-    "Pasted image 20240528110711.png",
     "fleet/Bond.md",
     "fleet/How to use Obsidian.md",
     "fleet/Database network optimization.md",
