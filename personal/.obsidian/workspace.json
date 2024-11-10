@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/Predicate pruning techniques in OLAP system.md",
+                "file": "fleet/Recursive unnest.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1045bc19c1b1e1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fleet/Decorrelate dependent join.md",
                 "mode": "source",
                 "source": false
               }
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +88,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -95,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fleet/Predicate pruning techniques in OLAP system.md",
+                "file": "fleet/Decorrelate dependent join.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fleet/Predicate pruning techniques in OLAP system.md",
+                "file": "fleet/Decorrelate dependent join.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,16 +149,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fleet/Predicate pruning techniques in OLAP system.md"
+                "file": "fleet/Decorrelate dependent join.md"
               }
             }
+          },
+          {
+            "id": "64017b692b530672",
+            "type": "leaf",
+            "state": {
+              "type": "idr-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,20 +175,25 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "idorecall:iDoRecall": false
     }
   },
-  "active": "17bbcd4fb53f9f36",
+  "active": "c1045bc19c1b1e1b",
   "lastOpenFiles": [
+    "Pasted image 20241110114003.png",
+    "Pasted image 20241109112733.png",
+    "fleet/Recursive unnest.md",
+    "fleet/Decorrelate dependent join.md",
+    "fleet/Workspace for rust.md",
+    "literatures/Worst case optimal join.md",
+    "fleet/Predicate pruning techniques in OLAP system.md",
     "Pasted image 20240921091933.png",
     "fleet/OLAP encoding scheme.md",
     "Pasted image 20240528110711.png",
-    "fleet/Predicate pruning techniques in OLAP system.md",
-    "fleet/Recursive unnest.md",
     "Pasted image 20240714120116.png",
     "fleet/Implement unnest.md",
     "literatures/SAP HANA query scheduling.md",
-    "fleet/Workspace for rust.md",
     "fleet/Machine learning the basic.md",
     "fleet/Go package structure.md",
     "fleet/Parquet.md",
@@ -183,12 +210,10 @@
     "fleet/Understand how pin works in Rust.md",
     "fleet/Datafusion Logical Plan node type.md",
     "fleet/Datafusion TableScan.md",
-    "literatures/Worst case optimal join.md",
     "Pasted image 20231023214055.png",
     "Pasted image 20231023212022.png",
     "Pasted image 20231023211953.png",
     "literatures/Query scheduling in Datafusion.md",
-    "literatures/Delta lake 3.0.md",
     "permanent",
     "literatures",
     "Templates",
