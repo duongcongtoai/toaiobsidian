@@ -102,7 +102,10 @@ From the dependent join of T1 and T2, this step introduce an extra step:
 
 ## Break down
 Find out if in Datafusion already support simple unnest usecase
+Done: already implemented
 
+## Major point
+![[Pasted image 20250112034345.png]]
 
 ## References
 1. 

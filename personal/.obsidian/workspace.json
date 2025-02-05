@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/Decorrelate dependent join.md",
+                "file": "fleet/Index fund.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Decorrelate dependent join"
+              "title": "Index fund"
             }
           },
           {
@@ -229,11 +229,13 @@
   },
   "active": "2e23198ac5411199",
   "lastOpenFiles": [
+    "fleet/Decorrelate dependent join.md",
+    "fleet/Index fund.md",
+    "Pasted image 20250112034345.png",
     "Pasted image 20241125201151.png",
     "Pasted image 20241125195948.png",
     "fleet/Recursive unnest.md",
     "fleet/Queue membership manager.md",
-    "fleet/Decorrelate dependent join.md",
     "Pasted image 20241110114003.png",
     "Pasted image 20241109112733.png",
     "fleet/Workspace for rust.md",
@@ -263,12 +265,10 @@
     "fleet/Datafusion TableScan.md",
     "Pasted image 20231023214055.png",
     "Pasted image 20231023212022.png",
-    "Pasted image 20231023211953.png",
     "permanent",
     "literatures",
     "Templates",
     "Untitled.canvas",
-    "Radix partition.png",
     "fleet"
   ]
 }
