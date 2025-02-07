@@ -4,77 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "2c83de9be2aa9a91",
+        "id": "fc6c9059adf9f54f",
         "type": "tabs",
         "children": [
           {
-            "id": "17bbcd4fb53f9f36",
+            "id": "f89e9f440446be9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/Recursive unnest.md",
+                "file": "fleet/LLM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recursive unnest"
-            }
-          },
-          {
-            "id": "c1045bc19c1b1e1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleet/Queue membership manager.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Queue membership manager"
-            }
-          },
-          {
-            "id": "2e23198ac5411199",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fleet/Index fund.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Index fund"
-            }
-          },
-          {
-            "id": "8fc2eadef35f659c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
-          },
-          {
-            "id": "3bd1aa13854f85d2",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20240528110711.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240528110711"
+              "title": "LLM"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +67,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -227,8 +175,9 @@
       "idorecall:iDoRecall": false
     }
   },
-  "active": "2e23198ac5411199",
+  "active": "f89e9f440446be9b",
   "lastOpenFiles": [
+    "fleet/LLM.md",
     "fleet/Decorrelate dependent join.md",
     "fleet/Index fund.md",
     "Pasted image 20250112034345.png",
@@ -262,7 +211,6 @@
     "fleet/Database statistics.md",
     "fleet/Understand how pin works in Rust.md",
     "fleet/Datafusion Logical Plan node type.md",
-    "fleet/Datafusion TableScan.md",
     "Pasted image 20231023214055.png",
     "Pasted image 20231023212022.png",
     "permanent",
