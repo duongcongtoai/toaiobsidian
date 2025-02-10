@@ -30,7 +30,7 @@ For those interested in seeing how AI can go wrong, this contains over 3000 repo
 Paper: https://arxiv.org/pdf/1706.03762 Attention is all you need
 What?
 
-Mutliple steps:
+Multi steps:
 tokenize the words
 embeding the words in to multi-dimensional array
 so that words having similar context appear close to each other
@@ -46,7 +46,7 @@ Neural network is a combination of recognition being broken down into multiple s
 
 
 It is a collection of neurons that receive input and pass output to next layer, each layer has parameters (weight + bias)
-What is neuron
+## What is neuron
 a tiny decision making unit
 
 ## Questions
@@ -54,6 +54,25 @@ a tiny decision making unit
 - Positional embed encoding?
 - How text auto-completion work given that the model output billions of suggestion (every possible words in the universe is assigned a probability)
 - What is feed-forward network
+- PCA (Principal component analysis)
+## Matrix transpose
+
+An act similar to exchange the values of row and column of the matrix.
+Application:
+- Covarriance compute: from `M x N` dimension matrix `C=1/m X^T X`
+Application: high covrarriance is the symtomp of multicollinearity, which has negative effect on the model:
+	- uncessarily high standard error
+	- inefficient to run t-test
+
+## Matrix inversion
+Only square matrices can be inverted
+
+Complexity: O(n^3)
+Application:
+- OLS: find the coefficient of linear model (with some limitation on complexity if the sample is too much, or too large number of feature, or high correlated features)
+- backpropagation +  Newton method
+- Kalman filters (used in robotics and time-series prediction) to update state estimate
+
 
 
 ## References

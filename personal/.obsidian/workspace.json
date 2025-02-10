@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "row group",
+                "query": "zet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,8 +174,9 @@
       "idorecall:iDoRecall": false
     }
   },
-  "active": "f89e9f440446be9b",
+  "active": "9b378a5a1d265bfa",
   "lastOpenFiles": [
+    "fleet/Stacked diff.md",
     "fleet/LLM.md",
     "fleet/Decorrelate dependent join.md",
     "fleet/Index fund.md",
@@ -210,7 +210,6 @@
     "literatures/Datafusion learning.md",
     "fleet/Database statistics.md",
     "fleet/Understand how pin works in Rust.md",
-    "fleet/Datafusion Logical Plan node type.md",
     "Pasted image 20231023214055.png",
     "Pasted image 20231023212022.png",
     "permanent",
