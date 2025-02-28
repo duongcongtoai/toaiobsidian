@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fleet/LLM.md",
+                "file": "fleet/How to use Obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "LLM"
+              "title": "How to use Obsidian"
             }
           }
         ]
@@ -174,10 +174,10 @@
       "idorecall:iDoRecall": false
     }
   },
-  "active": "9b378a5a1d265bfa",
+  "active": "f89e9f440446be9b",
   "lastOpenFiles": [
-    "fleet/Stacked diff.md",
     "fleet/LLM.md",
+    "fleet/Stacked diff.md",
     "fleet/Decorrelate dependent join.md",
     "fleet/Index fund.md",
     "Pasted image 20250112034345.png",
