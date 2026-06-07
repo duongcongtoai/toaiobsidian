@@ -8,63 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a86a90323fd5d9a3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal/literatures/Datafusion learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "79477d54c203f602",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/fleet/Statistic framework.md",
+                "file": "Daily/2026-06-07.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-07"
             }
           },
           {
-            "id": "60b62fd92313d540",
+            "id": "2bf08827957f9ace",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "personal/fleet/Workspace for rust.md",
+                "file": "Knowledge/Cache Pollution.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "a75ff182328be3fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal/literatures/Query scheduling in Datafusion.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28ec5f929ed86950",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "personal/fleet/Workspace for rust.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Cache Pollution"
             }
           }
         ],
@@ -87,8 +55,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -103,7 +74,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -111,10 +84,13 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "personal/fleet/Statistic framework.md",
+                "file": "Knowledge/Cache Pollution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +118,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Cache Pollution"
             }
           },
           {
@@ -151,10 +129,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "personal/fleet/Statistic framework.md",
+                "file": "Knowledge/Cache Pollution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Cache Pollution"
             }
           },
           {
@@ -164,8 +144,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -174,8 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "personal/fleet/Statistic framework.md"
-              }
+                "file": "Knowledge/Cache Pollution.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Cache Pollution"
             }
           }
         ]
@@ -187,6 +176,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -195,37 +185,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37f50af83ad04a40",
+  "active": "2bf08827957f9ace",
   "lastOpenFiles": [
-    "README.md",
-    "personal/fleet/Statistic framework.md",
-    "personal/literatures/Datafusion learning.md",
-    "personal/fleet/Workspace for rust.md",
-    "personal/literatures/Query scheduling in Datafusion.md",
-    "personal/literatures/Worst case optimal join.md",
-    "personal/literatures/Statistic framework.md",
-    "personal/fleet/Understand how pin works in Rust.md",
-    "personal/fleet/Rust static lifetime usage.md",
-    "personal/fleet/Read through datafusion code.md",
-    "personal/fleet/QueryPlaner Create Physical Plan.md",
-    "personal/fleet/Machine learning the basic.md",
-    "personal/fleet/Datafusion TableScan.md",
-    "personal/fleet/Datafusion Logical Plan node type.md",
-    "personal/fleet/Database statistics.md",
-    "personal/fleet/Database network optimization.md",
-    "personal/Pasted image 20231023214055.png",
-    "personal/Pasted image 20231023212022.png",
+    "Daily/2026-06-07.md",
+    "Knowledge/Hardware Prefetcher.md",
+    "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
+    "Vectorization in Datafusion.md",
+    "raw/articles/2026-06-07 — Datafusion learning.md",
+    "Knowledge/Datafusion learning.md",
+    "Knowledge/Datafusion TableScan.md",
+    "Knowledge/Cache Pollution.md",
+    "Tasks/Simulate TLB Pollution.md",
+    "Tasks/Implement tight loop benchmark.md",
+    "raw/articles/2026-06-07 — Data lake, data warehouse, lake house.md",
+    "raw/articles/2026-06-07 — Bond.md",
     "personal/Pasted image 20231023211953.png",
-    "personal/literatures/Parallel hash join.md",
-    "personal/literatures/Vectorizaation in Datafusion.md",
-    "personal/literatures/Query compilation in Datafusion.md",
-    "personal/literatures/Hash join in Datafusion.md",
-    "personal/literatures/Datafusion datatypes.md",
-    "personal/fleet/Stacked diff.md",
-    "personal/literatures/Vectorization vs query compilation.md",
+    "personal/2023-10-16.md",
+    "personal/vectorwise vs hyper.png",
+    "personal/Untitled.canvas",
     "personal/Radix partition.png",
-    "personal/literatures/SAP HANA query scheduling.md",
-    "personal/literatures/Hyper+Umbra query scheduling.md",
-    "personal/literatures/Delta lake 3.0.md"
+    "personal/Pasted image 20231023212022.png",
+    "raw/articles/2026-06-07 — Predicate pruning techniques in OLAP system.md",
+    "Knowledge/Predicate pruning techniques in OLAP system.md",
+    "Knowledge/Index fund.md",
+    "Knowledge/LLM.md",
+    "Bases/Tasks.base",
+    "Knowledge/Vectorization vs query compilation.md",
+    "raw/articles/2026-06-07 — Vectorization vs query compilation.md",
+    "Knowledge/Query scheduling in Datafusion.md",
+    "raw/articles/2026-06-07 — Query scheduling in Datafusion.md",
+    "Knowledge/Hyper+Umbra query scheduling.md",
+    "raw/articles/2026-06-07 — Hyper+Umbra query scheduling.md",
+    "Knowledge/Data lake, data warehouse, lake house.md",
+    "Knowledge/Datafusion datatypes.md",
+    "raw/articles/2026-06-07 — Datafusion datatypes.md",
+    "raw/assets/Decorrelate_dependent_join-diagram-1.png",
+    "ingest_all.py",
+    "raw/assets/OLAP_encoding_scheme-diagram-1.png",
+    "raw/assets/Decorrelate_dependent_join-diagram-5.png",
+    "raw/assets/Decorrelate_dependent_join-diagram-4.png",
+    "raw/assets/Decorrelate_dependent_join-diagram-3.png",
+    "raw/assets/Decorrelate_dependent_join-diagram-2.png",
+    "raw/assets",
+    "Bases/Daily.base",
+    "Bases/People.base",
+    "Bases/Projects.base",
+    "Daily",
+    "Tasks",
+    "Knowledge",
+    "raw/articles"
   ]
 }

@@ -1,0 +1,84 @@
+# Vault Index
+
+## Knowledge
+- [[SAP HANA query scheduling]] — Concept note for SAP HANA query scheduling
+- [[How to use Obsidian]] — Concept note for How to use Obsidian
+- [[Workspace for rust]] — Concept note for Workspace for rust
+- [[Vectorization vs query compilation]] — Concept note for Vectorization vs query compilation
+- [[Datafusion datatypes]] — Concept note for Datafusion datatypes
+- [[Data lake, data warehouse, lake house]] — Concept note for Data lake, data warehouse, lake house
+- [[QueryPlaner Create Physical Plan]] — Concept note for QueryPlaner Create Physical Plan
+- [[OLAP encoding scheme]] — Concept note for OLAP encoding scheme
+- [[Statistic framework]] — Concept note for Statistic framework
+- [[Predicate pruning techniques in OLAP system]] — Concept note for Predicate pruning techniques in OLAP system
+- [[Database statistics]] — Concept note for Database statistics
+- [[Datafusion learning]] — Concept note for Datafusion learning
+- [[Hyper+Umbra query scheduling]] — Concept note for Hyper+Umbra query scheduling
+- [[LLM]] — Concept note for LLM
+- [[Go package structure]] — Concept note for Go package structure
+- [[Delta lake 3.0]] — Concept note for Delta lake 3.0
+- [[Stacked diff]] — Concept note for Stacked diff
+- [[Rust static lifetime usage]] — Concept note for Rust static lifetime usage
+- [[Decorrelate dependent join]] — Concept note for Decorrelate dependent join
+- [[Query scheduling in Datafusion]] — Concept note for Query scheduling in Datafusion
+- [[Parallel hash join]] — Concept note for Parallel hash join
+- [[Machine learning the basic]] — Concept note for Machine learning the basic
+- [[Datafusion Logical Plan node type]] — Concept note for Datafusion Logical Plan node type
+- [[Database network optimization]] — Concept note for Database network optimization
+- [[Understand how pin works in Rust]] — Concept note for Understand how pin works in Rust
+- [[Read through datafusion code]] — Concept note for Read through datafusion code
+- [[Index fund]] — Concept note for Index fund
+- [[Datafusion TableScan]] — Concept note for Datafusion TableScan
+- [[Bond]] — Concept note for Bond
+- [[Queue membership manager]] — Concept note for Queue membership manager
+- [[Implement unnest]] — Concept note for Implement unnest
+- [[Recursive unnest]] — Concept note for Recursive unnest
+- [[Worst Case Optimal Join]] — WCOJ algorithms and mechanism using Hash Tries
+- [[Hash Trie Join]] — Hash Trie Join data structure approach
+- [[Memory Hierarchy]] — Memory Hierarchy & Cache Lines
+- [[Hardware Prefetcher]] — Hardware Prefetchers and their role in hiding memory latency
+- [[Translation Lookaside Buffer]] — TLB and its impact on memory address translation
+- [[Cache Pollution]] — Cache Pollution and TLB Thrashing
+
+## Tasks
+- [[Multi-way hash trie join]] — Research and implement multi-way hash trie join algorithm
+- [[Implement tight loop benchmark]] — Prove tight loop outperforms non-tight loop
+- [[Prove L2-sized hashtables outperform large ones]] — Benchmark small vs large hash tables
+- [[Simulate TLB Pollution]] — Simulate and isolate TLB thrashing performance degradation
+
+## Raw Sources
+- [[2026-06-07 — Read through datafusion code]] — Raw source note on Read through datafusion code
+- [[2026-06-07 — OLAP encoding scheme]] — Raw source note on OLAP encoding scheme
+- [[2026-06-07 — QueryPlaner Create Physical Plan]] — Raw source note on QueryPlaner Create Physical Plan
+- [[2026-06-07 — Database network optimization]] — Raw source note on Database network optimization
+- [[2026-06-07 — Datafusion TableScan]] — Raw source note on Datafusion TableScan
+- [[2026-06-07 — Workspace for rust]] — Raw source note on Workspace for rust
+- [[2026-06-07 — Predicate pruning techniques in OLAP system]] — Raw source note on Predicate pruning techniques in OLAP system
+- [[2026-06-07 — Statistic framework]] — Raw source note on Statistic framework
+- [[2026-06-07 — Queue membership manager]] — Raw source note on Queue membership manager
+- [[2026-06-07 — Decorrelate dependent join]] — Raw source note on Decorrelate dependent join
+- [[2026-06-07 — How to use Obsidian]] — Raw source note on How to use Obsidian
+- [[2026-06-07 — Bond]] — Raw source note on Bond
+- [[2026-06-07 — Machine learning the basic]] — Raw source note on Machine learning the basic
+- [[2026-06-07 — Go package structure]] — Raw source note on Go package structure
+- [[2026-06-07 — Database statistics]] — Raw source note on Database statistics
+- [[2026-06-07 — Rust static lifetime usage]] — Raw source note on Rust static lifetime usage
+- [[2026-06-07 — Understand how pin works in Rust]] — Raw source note on Understand how pin works in Rust
+- [[2026-06-07 — Index fund]] — Raw source note on Index fund
+- [[2026-06-07 — Stacked diff]] — Raw source note on Stacked diff
+- [[2026-06-07 — Recursive unnest]] — Raw source note on Recursive unnest
+- [[2026-06-07 — Implement unnest]] — Raw source note on Implement unnest
+- [[2026-06-07 — LLM]] — Raw source note on LLM
+- [[2026-06-07 — Datafusion Logical Plan node type]] — Raw source note on Datafusion Logical Plan node type
+- [[2026-06-07 — SAP HANA query scheduling]] — Raw source note on SAP HANA query scheduling
+- [[2026-06-07 — Datafusion learning]] — Raw source note on Datafusion learning
+- [[2026-06-07 — Statistic framework]] — Raw source note on Statistic framework
+- [[2026-06-07 — Parallel hash join]] — Raw source note on Parallel hash join
+- [[2026-06-07 — Delta lake 3.0]] — Raw source note on Delta lake 3.0
+- [[2026-06-07 — Datafusion datatypes]] — Raw source note on Datafusion datatypes
+- [[2026-06-07 — Data lake, data warehouse, lake house]] — Raw source note on Data lake, data warehouse, lake house
+- [[2026-06-07 — Hyper+Umbra query scheduling]] — Raw source note on Hyper+Umbra query scheduling
+- [[2026-06-07 — Query scheduling in Datafusion]] — Raw source note on Query scheduling in Datafusion
+- [[2026-06-07 — Vectorization vs query compilation]] — Raw source note on Vectorization vs query compilation
+- [[2026-06-07 — Worst case optimal join]] — Raw source note on WCOJ
+- [[2026-06-07 — Hardware-Level Performance and DataFusion Aggregation]] — Hardware-level performance in DBs
