@@ -39,12 +39,16 @@
 - [[Hardware Prefetcher]] — Hardware Prefetchers and their role in hiding memory latency
 - [[Translation Lookaside Buffer]] — TLB and its impact on memory address translation
 - [[Cache Pollution]] — Cache Pollution and TLB Thrashing
+- [[CPU Cache - Simulation vs Measurement]] — Contrast of software simulation vs hardware PMU measurements
+- [[Rust Performance Workflow]] — Step-by-step performance optimization workflow for Rust
+- [[Performance Profiling Tools]] — Categorization of profiling tools (Samply, perf, VTune, etc.)
 
 ## Tasks
 - [[Multi-way hash trie join]] — Research and implement multi-way hash trie join algorithm
 - [[Implement tight loop benchmark]] — Prove tight loop outperforms non-tight loop
 - [[Prove L2-sized hashtables outperform large ones]] — Benchmark small vs large hash tables
 - [[Simulate TLB Pollution]] — Simulate and isolate TLB thrashing performance degradation
+- [[Analyze array_agg micro-optimization]] — Analyze DataFusion array_agg micro-optimization
 
 ## Raw Sources
 - [[2026-06-07 — Read through datafusion code]] — Raw source note on Read through datafusion code
@@ -82,3 +86,4 @@
 - [[2026-06-07 — Vectorization vs query compilation]] — Raw source note on Vectorization vs query compilation
 - [[2026-06-07 — Worst case optimal join]] — Raw source note on WCOJ
 - [[2026-06-07 — Hardware-Level Performance and DataFusion Aggregation]] — Hardware-level performance in DBs
+- [[2026-06-07 — Rust Performance Understanding Cache Behavior Beyond Benchmarks]] — Raw source on Rust CPU cache analysis
