@@ -27,12 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
+                "file": "Daily/2026-06-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-07 — Hardware-Level Performance and DataFusion Aggregation"
+              "title": "2026-06-07"
+            }
+          },
+          {
+            "id": "d1ef8e091bfa24b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "raw/articles/2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes"
             }
           },
           {
@@ -60,7 +74,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pipeline",
+                "query": "cpu pipeline ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
+                "file": "raw/articles/2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-06-07 — Hardware-Level Performance and DataFusion Aggregation"
+              "title": "Backlinks for 2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes"
             }
           },
           {
@@ -153,12 +167,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
+                "file": "raw/articles/2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-06-07 — Hardware-Level Performance and DataFusion Aggregation"
+              "title": "Outgoing links from 2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes"
             }
           },
           {
@@ -182,13 +196,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
+                "file": "raw/articles/2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2026-06-07 — Hardware-Level Performance and DataFusion Aggregation"
+              "title": "Outline of 2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes"
             }
           }
         ]
@@ -208,19 +222,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13e14de95bcd3d28",
+  "active": "d1ef8e091bfa24b3",
   "lastOpenFiles": [
+    "Daily/2026-06-07.md",
+    "Logs/2026-06-07.md",
+    "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
+    "Knowledge/Speculative Execution.md",
+    "Knowledge/Out-of-Order Execution.md",
+    "Knowledge/CPU Pipeline Slots.md",
+    "Knowledge/Top-Down Microarchitecture Analysis.md",
+    "raw/articles/2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes.md",
     "Knowledge/Rust Performance Workflow.md",
     "Knowledge/Memory Hierarchy.md",
     "Knowledge/Hardware Prefetcher.md",
-    "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
     "Tasks/Analyze array_agg micro-optimization.md",
     "2026-06-07.md",
     "Bases/Tasks.base",
     "raw/articles/2026-06-07 — Rust Performance Understanding Cache Behavior Beyond Benchmarks.md",
-    "Daily/2026-06-07.md",
     "Knowledge/CPU Cache - Simulation vs Measurement.md",
-    "Logs/2026-06-07.md",
     "personal/fleet/Statistic framework.md",
     "raw/articles/2026-06-07 — Datafusion learning.md",
     "personal/fleet",
@@ -238,11 +257,7 @@
     "Knowledge/Datafusion learning.md",
     "Knowledge/Datafusion TableScan.md",
     "Tasks/Simulate TLB Pollution.md",
-    "Tasks/Implement tight loop benchmark.md",
-    "raw/articles/2026-06-07 — Data lake, data warehouse, lake house.md",
-    "raw/articles/2026-06-07 — Bond.md",
     "personal/Pasted image 20231023211953.png",
-    "personal/2023-10-16.md",
     "personal/vectorwise vs hyper.png",
     "personal/Untitled.canvas",
     "personal/Radix partition.png",

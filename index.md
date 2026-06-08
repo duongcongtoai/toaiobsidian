@@ -42,6 +42,10 @@
 - [[CPU Cache - Simulation vs Measurement]] — Contrast of software simulation vs hardware PMU measurements
 - [[Rust Performance Workflow]] — Step-by-step performance optimization workflow for Rust
 - [[Performance Profiling Tools]] — Categorization of profiling tools (Samply, perf, VTune, etc.)
+- [[Top-Down Microarchitecture Analysis]] — Analysis methodology categorizing CPU stalls
+- [[CPU Pipeline Slots]] — Concepts around execution cycles and pipeline utilization
+- [[Out-of-Order Execution]] — Mitigating stalls via instruction reordering
+- [[Speculative Execution]] — Branch prediction execution optimization
 
 ## Tasks
 - [[Multi-way hash trie join]] — Research and implement multi-way hash trie join algorithm
