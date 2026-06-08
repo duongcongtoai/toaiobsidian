@@ -31,4 +31,8 @@ For example, a 4-wide CPU has 4 slots per cycle:
 
 When a cycle passes (the train leaves), any unoccupied slots (empty seats) are lost forever. The CPU cannot "reuse" a wasted cycle later. 
 
-To maximize throughput and ensure as many slots as possible are filled with Retiring (useful) instructions, CPUs employ techniques like [[Out-of-Order Execution]], [[Speculative Execution]], Simultaneous Multi-Threading (SMT), and the [[Hardware Prefetcher]]. These optimizations work in tandem to minimize stalls identified in [[Top-Down Microarchitecture Analysis]].
+To maximize throughput and ensure as many slots as possible are filled with Retiring (useful) instructions, CPUs employ techniques like [[Out-of-Order Execution]], [[Speculative Execution]], Simultaneous Multi-Threading (SMT), and the [[Hardware Prefetcher]]. These optimizations work in tandem to minimize stalls identified in [[CPU Top-Down Microarchitecture Analysis]].
+
+## Flashcard
+
+#flashcards

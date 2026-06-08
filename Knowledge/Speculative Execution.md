@@ -19,4 +19,4 @@ Speculative Execution is a technique where the CPU predicts the outcome of a bra
 - **If the prediction is correct:** The execution is valid, and the Retiring metric increases.
 - **If the prediction is incorrect:** The CPU must discard the speculatively executed work, flush the pipeline, and start over on the correct path.
 
-Frequent mispredictions lead to a high **Bad Speculation** rate, as identified in [[Top-Down Microarchitecture Analysis]], meaning the CPU wasted execution cycles doing work that had to be thrown away.
+Frequent mispredictions lead to a high **Bad Speculation** rate, as identified in [[CPU Top-Down Microarchitecture Analysis]], meaning the CPU wasted execution cycles doing work that had to be thrown away.

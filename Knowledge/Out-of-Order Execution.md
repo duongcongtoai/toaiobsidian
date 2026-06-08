@@ -20,4 +20,4 @@ Instead of waiting for a slow instruction to complete (like a LOAD that misses t
 
 For example, if a `LOAD A` causes a cache miss, but the subsequent `ADD B` and `MUL C` do not depend on `A`, the CPU will execute the addition and multiplication while waiting for `A` to arrive.
 
-This prevents the CPU from wasting valuable cycles sitting idle, thereby reducing Backend Bound stalls as identified in [[Top-Down Microarchitecture Analysis]].
+This prevents the CPU from wasting valuable cycles sitting idle, thereby reducing Backend Bound stalls as identified in [[CPU Top-Down Microarchitecture Analysis]].

@@ -40,8 +40,7 @@
 - [[Translation Lookaside Buffer]] — TLB and its impact on memory address translation
 - [[Cache Pollution]] — Cache Pollution and TLB Thrashing
 - [[CPU Cache - Simulation vs Measurement]] — Contrast of software simulation vs hardware PMU measurements
-- [[Rust Performance Workflow]] — Step-by-step performance optimization workflow for Rust
-- [[Performance Profiling Tools]] — Categorization of profiling tools (Samply, perf, VTune, etc.)
+- [[Rust Performance Profiling]] — Concept note for Rust Performance Profiling
 - [[Top-Down Microarchitecture Analysis]] — Analysis methodology categorizing CPU stalls
 - [[CPU Pipeline Slots]] — Concepts around execution cycles and pipeline utilization
 - [[Out-of-Order Execution]] — Mitigating stalls via instruction reordering

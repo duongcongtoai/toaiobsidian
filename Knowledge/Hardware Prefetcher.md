@@ -23,3 +23,5 @@ To prevent the CPU's Execution Unit from stalling due to slow RAM access, modern
 ## The Page Boundary Wall
 
 Prefetchers will stop aggressively fetching when they hit a **4 KiB Page Boundary** if the next page's address isn't in the [[Translation Lookaside Buffer]] (TLB). This behavior prevents the prefetcher from triggering OS Page Faults by guessing wrong. Once the program execution crosses the boundary and updates the TLB, prefetching resumes.
+
+---
