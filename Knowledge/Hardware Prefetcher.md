@@ -25,3 +25,15 @@ To prevent the CPU's Execution Unit from stalling due to slow RAM access, modern
 Prefetchers will stop aggressively fetching when they hit a **4 KiB Page Boundary** if the next page's address isn't in the [[Translation Lookaside Buffer]] (TLB). This behavior prevents the prefetcher from triggering OS Page Faults by guessing wrong. Once the program execution crosses the boundary and updates the TLB, prefetching resumes.
 
 ---
+## Flashcards
+
+What does L1 prefetcher do, give example
+?
+imagine a loop iterating i64 integers, the cache line is 64Kb which allows L1 cache to fetch 8 integers at the same time (0-7 items), and it predict the next run will requires 8-15, thus during the execution of 0-7, it "prefetch"  items at 8-15.
+
+What does L2 prefetcher do, give example
+
+It monitor access pattern of L1 prefetcher and predict further data access, let's say at the time L1 prefetcher asks for item at index 1024, it already fetches let's say items from range 1024 to 1664 (10 cache line ahead) 
+
+
+#flashcards/systemengineering 
