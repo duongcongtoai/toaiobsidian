@@ -30,3 +30,19 @@ This hardware trade-off minimizes request overhead while avoiding wasting bandwi
 For example, a single 64-byte cache line holds exactly 8 `i64` (64-bit) integers.
 
 Efficient algorithms, such as those relying on [[Hardware Prefetcher]]s or vectorized loops, ensure that memory reads are contiguous, maximizing cache line utilization and keeping the execution pipeline full. Random access patterns (like large hash tables) lead to [[Cache Pollution]] and stall the CPU.
+---
+## Flashcards
+
+What is the typical latency difference between L1 Cache and Main RAM?
+?
+L1 Cache is extremely fast (~1-2 cycles latency), whereas Main RAM is massive but very slow (200-300+ cycles latency).
+
+What is a Cache Line and what is its standard size?
+?
+A cache line is the fixed block of data the CPU fetches from RAM at once. Its standard size is 64 bytes (which can hold exactly eight 64-bit integers).
+
+Why does random memory access stall the CPU compared to contiguous access?
+?
+Random access breaks the Hardware Prefetcher's pattern recognition and leads to Cache Pollution. The CPU is forced to wait hundreds of cycles for RAM instead of utilizing pre-fetched contiguous cache lines.
+
+#flashcards/systemengineering

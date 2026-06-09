@@ -1,5 +1,5 @@
 ---
-description: Generates multi-line flashcards from conversation or notes and saves them to Learning/flashcards
+description: Generates multi-line flashcards from conversation or notes and saves them along with the document.
 category: thinking
 triggers_en: ["generate flashcards", "create flashcards", "make flashcards", "create flashcard"]
 ---

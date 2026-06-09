@@ -42,3 +42,19 @@ The Top-Down methodology is a systematic approach to identifying performance bot
 
 ## Relationship with Hardware Prefetching
 A successful [[Hardware Prefetcher]] reduces **Backend Bound** stalls (by preventing cache misses) and consequently increases the **Retiring** rate. Poor prefetching does the opposite.
+---
+## Flashcards
+
+In Top-Down Microarchitecture Analysis, what does it mean to be "Frontend Bound"?
+?
+The execution backend is ready to do work, but the CPU stalled because it could not fetch or decode instructions fast enough (e.g., due to L1i cache misses, ITLB misses, or branch prediction fetch stalls).
+
+In Top-Down Analysis, what is the difference between "Memory Bound" and "Core Bound"?
+?
+Both are subcategories of "Backend Bound" stalls. Memory Bound means the CPU is stalled waiting for data (cache misses, RAM latency). Core Bound means the CPU has the data but is waiting for execution resources (ALU/FPU contention).
+
+What does a high "Retiring" percentage indicate in Top-Down Analysis?
+?
+It is a positive metric indicating that CPU Pipeline Slots were filled with useful work that completed successfully, implying highly productive CPU utilization.
+
+#flashcards/systemengineering

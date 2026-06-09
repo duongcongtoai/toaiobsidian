@@ -25,7 +25,7 @@ agent) should follow when the user's request matches its trigger phrase.
 |---|---|---|
 | `/obsidian-board` | Show or update a kanban board - flags overdue items, updates from conversation | `.opencode/commands/obsidian-board.md` |
 | `/obsidian-capture` | Quick idea capture - zero friction, saves to Ideas/ and mentions in daily note | `.opencode/commands/obsidian-capture.md` |
-| `/obsidian-daily` | Create or update today's daily note - pulls calendar events, overdue tasks, and conversation context | `.opencode/commands/obsidian-daily.md` |
+| `/obsidian-daily` | Create or update today's log note - pulls calendar events, overdue tasks, and conversation context | `.opencode/commands/obsidian-daily.md` |
 | `/obsidian-find` | Smart vault search - returns results with context, not just filenames | `.opencode/commands/obsidian-find.md` |
 | `/obsidian-log` | Log this work or dev session to the vault - infers project from context | `.opencode/commands/obsidian-log.md` |
 | `/obsidian-person` | Create or update a person note from conversation context | `.opencode/commands/obsidian-person.md` |
@@ -70,14 +70,14 @@ agent) should follow when the user's request matches its trigger phrase.
 
 ### Meta - vault setup, health, structure
 
-| Command | What it does | Read this file |
-|---|---|---|
-| `/create-command` | Create a new obsidian-second-brain command via interview - zero markdown editing required | `.opencode/commands/create-command.md` |
+| Command               | What it does                                                                                                                                                                 | Read this file                             |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| `/create-command`     | Create a new obsidian-second-brain command via interview - zero markdown editing required                                                                                    | `.opencode/commands/create-command.md`     |
 | `/obsidian-architect` | Scan a codebase and write a maintained set of architecture notes into the vault - overview, per-module notes, key decisions. Re-run to refresh without clobbering your edits | `.opencode/commands/obsidian-architect.md` |
-| `/obsidian-export` | Export a clean structured snapshot of the vault that any agent or tool can consume - flat JSON or markdown index | `.opencode/commands/obsidian-export.md` |
-| `/obsidian-health` | Run a vault health check - grouped by severity, detects contradictions, concept gaps, stale claims, and structural issues | `.opencode/commands/obsidian-health.md` |
-| `/obsidian-init` | Scan your vault and generate a _CLAUDE.md operating manual, index.md catalog, and log.md pointer | `.opencode/commands/obsidian-init.md` |
-| `/obsidian-visualize` | Generate a visual canvas map of your vault - see the shape of your second brain and how knowledge connects | `.opencode/commands/obsidian-visualize.md` |
+| `/obsidian-export`    | Export a clean structured snapshot of the vault that any agent or tool can consume - flat JSON or markdown index                                                             | `.opencode/commands/obsidian-export.md`    |
+| `/obsidian-health`    | Run a vault health check - grouped by severity, detects contradictions, concept gaps, stale claims, and structural issues                                                    | `.opencode/commands/obsidian-health.md`    |
+| `/obsidian-init`      | Scan your vault and generate a _CLAUDE.md operating manual, index.md catalog, and log.md pointer                                                                             | `.opencode/commands/obsidian-init.md`      |
+| `/obsidian-visualize` | Generate a visual canvas map of your vault - see the shape of your second brain and how knowledge connects                                                                   | `.opencode/commands/obsidian-visualize.md` |
 
 ## Trigger phrases
 
@@ -90,7 +90,7 @@ When the user says any of the phrases below (or a close paraphrase), follow the 
 
 - `/obsidian-board` - "show board", "kanban", "what is on my board", "update board"
 - `/obsidian-capture` - "capture this idea", "save this idea", "quick note", "drop a thought"
-- `/obsidian-daily` - "todays note", "create todays daily", "open daily", "today daily note"
+- `/obsidian-daily` - "todays note", "create todays log", "open log", "today log note"
 - `/obsidian-find` - "find in vault", "search my notes", "where is", "what did I write about"
 - `/obsidian-log` - "log this work", "log this session", "log this dev session", "obsidian log"
 - `/obsidian-person` - "save this person", "add person", "new contact note", "create person note"

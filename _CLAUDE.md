@@ -51,7 +51,6 @@ This is a general operating principle, not vault-specific. Keep it in `_CLAUDE.m
 
 | Folder | Purpose |
 |---|---|
-| `Daily/` | One note per day. Named `YYYY-MM-DD.md` |
 | `Projects/` | Active and archived projects |
 | `Tasks/` | Standalone task notes (linked from boards) |
 | `Boards/` | Kanban boards |
@@ -87,10 +86,10 @@ This is a general operating principle, not vault-specific. Keep it in `_CLAUDE.m
 ## Auto-Save Rules
 
 Claude should auto-save the following **without asking**:
-- Decisions made in conversation → relevant project note + daily note
+- Decisions made in conversation → relevant project note
 - New people mentioned → People/ (create stub if needed)
 - Tasks assigned or committed to → kanban board + Tasks/ note
-- Dev work done → Dev Logs/ + project note + daily note
+- Dev work done → Dev Logs/ + project note
 - Mentions/recognition from colleagues → Mentions Log + person's note
 - Completed tasks → move on kanban to ✅ Done
 
@@ -103,7 +102,6 @@ Claude should **ask before saving**:
 
 ## Naming Conventions
 
-- Daily notes: `YYYY-MM-DD.md`
 - Dev logs: `YYYY-MM-DD — Description.md`
 - Deals: `Client Name - Description Month Year.md`
 - Tasks: Descriptive title, no date prefix
@@ -123,7 +121,7 @@ tags:
 ---
 ```
 
-Note types: `daily` | `project` | `task` | `person` | `devlog` | `deal` | `goal` | `mention` | `content`
+Note types:  `project` | `task` | `person` | `devlog` | `deal` | `goal` | `mention` | `content`
 
 ---
 
@@ -150,13 +148,12 @@ Completed:
 
 | Event | Also update |
 |---|---|
-| New project | Board (Backlog) + today's daily note |
-| Task done | Board (Done, strikethrough) + project note + daily note |
-| Dev session | Dev Logs/ + project note (Recent Activity) + daily note |
-| Person interaction | Daily note + their People/ note |
-| Decision made | Project note (Key Decisions) + daily note |
-| Mention/recognition | Mentions Log + person's note + daily note |
-| Deal update | Deal file + Side Biz board + daily note |
+| New project | Board (Backlog) |
+| Task done | Board (Done, strikethrough) + project note |
+| Dev session | Dev Logs/ + project note (Recent Activity) |
+| Decision made | Project note (Key Decisions) |
+| Mention/recognition | Mentions Log + person's note |
+| Deal update | Deal file + Side Biz board |
 
 ---
 

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/2026-06-08.md",
+                "file": "Knowledge/CPU Pipeline Slots.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-08"
+              "title": "CPU Pipeline Slots"
             }
           }
         ],
@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rust performance profiling",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily/2026-06-08.md",
+                "file": "Bases/Tasks.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2026-06-08"
+              "title": "Backlinks for Tasks"
             }
           },
           {
@@ -142,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily/2026-06-08.md",
+                "file": "Knowledge/CPU Pipeline Slots.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2026-06-08"
+              "title": "Outgoing links from CPU Pipeline Slots"
             }
           },
           {
@@ -191,7 +192,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -211,41 +212,41 @@
   },
   "active": "0c904cd75208a35d",
   "lastOpenFiles": [
+    "Knowledge/Speculative Execution.md",
+    "Knowledge/CPU Top-Down Microarchitecture Analysis.md",
+    "Knowledge/Hardware Prefetcher.md",
+    "Knowledge/Rust Performance Profiling.md",
+    "Rust Performance Workflow.md",
     "Logs/2026-06-08.md",
-    "2026-06-09.md",
-    "Daily/2026-06-07.md",
+    "AGENTS.md",
+    "Logs/2026-06-09.md",
+    "_CLAUDE.md",
+    "Bases/Tasks.base",
+    "Bases/People.base",
+    "Bases/Daily.base",
     "Daily/2026-06-08.md",
+    "Daily/2026-06-07.md",
+    "2026-06-09.md",
     "Logs/2026-06-07.md",
     "2026-06-08.md",
     "2026-06-07.md",
     "log.md",
     "index.md",
     "README.md",
-    "AGENTS.md",
     "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
-    "Rust Performance Workflow.md",
     "Performance Profiling Tools.md",
-    "Knowledge/Hardware Prefetcher.md",
     "Tasks/Analyze array_agg micro-optimization.md",
     "2026-06-08.md~",
     "Ideas/Synthesis — Pattern Report 2026-06-08.md",
     "Untitled.md",
     "Ideas",
-    "Knowledge/Rust Performance Profiling.md",
     "raw/articles/2026-06-07 — Rust Performance Understanding Cache Behavior Beyond Benchmarks.md",
     "Knowledge/Rust Performance Workflow.md",
     "Knowledge/Performance Profiling Tools.md",
-    "personal/2023-10-16.md",
-    "Knowledge/CPU Cache - Simulation vs Measurement.md",
-    "Tasks/Implement tight loop benchmark.md",
-    "raw/articles/2026-06-07 — Worst case optimal join.md",
-    "Bases/Tasks.base",
     "personal/fleet",
     "Untitled 1.base",
     "Untitled.base",
     "Bases/Projects.base",
-    "Bases/People.base",
-    "Bases/Daily.base",
     "personal/Pasted image 20231023211953.png",
     "personal/vectorwise vs hyper.png",
     "personal/Untitled.canvas",
