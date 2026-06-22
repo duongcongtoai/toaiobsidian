@@ -36,13 +36,16 @@ Efficient algorithms, such as those relying on [[Hardware Prefetcher]]s or vecto
 What is the typical latency difference between L1 Cache and Main RAM?
 ?
 L1 Cache is extremely fast (~1-2 cycles latency), whereas Main RAM is massive but very slow (200-300+ cycles latency).
+<!--SR:!2026-06-16,1,210-->
 
 What is a Cache Line and what is its standard size?
 ?
 A cache line is the fixed block of data the CPU fetches from RAM at once. Its standard size is 64 bytes (which can hold exactly eight 64-bit integers).
+<!--SR:!2026-06-17,2,230-->
 
 Why does random memory access stall the CPU compared to contiguous access?
 ?
 Random access breaks the Hardware Prefetcher's pattern recognition and leads to Cache Pollution. The CPU is forced to wait hundreds of cycles for RAM instead of utilizing pre-fetched contiguous cache lines.
+<!--SR:!2026-06-16,1,210-->
 
 #flashcards/systemengineering

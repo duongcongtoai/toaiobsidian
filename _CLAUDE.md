@@ -51,6 +51,7 @@ This is a general operating principle, not vault-specific. Keep it in `_CLAUDE.m
 
 | Folder | Purpose |
 |---|---|
+| `WIP/` | Work in progress. Coding demos, open questions, and human-written drafts. Excluded from general ground-truth until graduated. |
 | `Projects/` | Active and archived projects |
 | `Tasks/` | Standalone task notes (linked from boards) |
 | `Boards/` | Kanban boards |
@@ -121,7 +122,9 @@ tags:
 ---
 ```
 
-Note types:  `project` | `task` | `person` | `devlog` | `deal` | `goal` | `mention` | `content`
+Note types:  `project` | `task` | `person` | `devlog` | `deal` | `goal` | `mention` | `content` | `wip`
+
+For `wip` notes, include a `status` field: `drafting` | `needs-clarification` | `ready-to-ingest` | `graduated`
 
 ---
 

@@ -43,12 +43,14 @@ They operate in parallel via a mechanism called VIPT:
 
 What are the L1 and L2 Translation Lookaside Buffers (TLB)?
 ?
-The TLB caches the translation from Virtual Memory Addresses to Physical RAM Addresses. 
+The TLB caches the translation from Virtual Memory Addresses to Physical RAM Addresses.
 - **L1 TLB:** Tiny (e.g., 64 entries) and instant (~1 cycle latency).
 - **L2 TLB:** Larger (e.g., 1,500 entries) and slightly slower.
+<!--SR:!2026-06-16,1,210-->
 
 Is the L1 TLB just a dedicated section of the L1 Data Cache, or is it a separate component?
 ?
 It is a completely separate hardware component. The L1 Cache stores actual data, while the L1 TLB stores virtual-to-physical address maps. They operate in parallel (VIPT) so the TLB can provide the physical tag at the exact moment the L1 Cache finishes its virtual index lookup.
+<!--SR:!2026-06-16,1,210-->
 
 #flashcards/systemengineering

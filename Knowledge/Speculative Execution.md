@@ -26,9 +26,11 @@ Frequent mispredictions lead to a high **Bad Speculation** rate, as identified i
 What is the primary purpose of Speculative Execution in a modern CPU?
 ?
 To keep CPU Pipeline Slots occupied. The CPU predicts the outcome of a branch (like an `if` statement) and executes the predicted path ahead of time rather than stalling to wait for the evaluation.
+<!--SR:!2026-06-17,2,230-->
 
 How does Speculative Execution relate to the "Bad Speculation" metric in Top-Down Analysis?
 ?
 When the CPU mispredicts a branch, it must discard the speculatively executed work and flush the pipeline. The wasted cycles spent doing work that had to be thrown away are categorized as "Bad Speculation."
+<!--SR:!2026-06-16,1,210-->
 
 #flashcards/systemengineering

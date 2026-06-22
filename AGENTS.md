@@ -53,6 +53,7 @@ agent) should follow when the user's request matches its trigger phrase.
 | `/obsidian-reconcile` | Find and resolve contradictions in the vault - the vault maintains its own truth | `.opencode/commands/obsidian-reconcile.md` |
 | `/obsidian-review` | Generate a structured weekly or monthly review note from vault history | `.opencode/commands/obsidian-review.md` |
 | `/obsidian-synthesize` | Automatic synthesis - scans the vault for unnamed patterns and writes synthesis pages without being asked | `.opencode/commands/obsidian-synthesize.md` |
+| `/obsidian-wip-graduate` | Promote a WIP research note or coding demo into the permanent Knowledge base. Extracts finalized concepts and archives the draft. | `.opencode/commands/obsidian-wip-graduate.md` |
 | `/vault-deep-synthesis` | Deep cross-reference of everything the vault knows about one topic - agreements, contradictions, stale claims, and coverage gaps. Pure vault, no network | `.opencode/commands/vault-deep-synthesis.md` |
 
 ### Research - bring external sources into the vault
@@ -116,6 +117,7 @@ When the user says any of the phrases below (or a close paraphrase), follow the 
 - `/obsidian-reconcile` - "find contradictions", "reconcile vault", "fix conflicts", "vault contradictions"
 - `/obsidian-review` - "weekly review", "monthly review", "review my week", "review my month"
 - `/obsidian-synthesize` - "synthesize", "auto-synthesis", "make synthesis notes", "find unnamed patterns"
+- `/obsidian-wip-graduate` - "graduate this wip", "ingest wip", "move wip to knowledge", "finalize draft"
 - `/vault-deep-synthesis` - "synthesize what I know about", "deep synthesis on", "cross-reference my notes on", "what does my vault say about"
 
 **Research - bring external sources into the vault**

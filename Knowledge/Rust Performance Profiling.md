@@ -52,6 +52,7 @@ List well known tools used for troubleshooting performance
 ?
 flamegraph-rs or samply to generate flamegraph and detect bottleneck overall
 perf (linux only) or uprof for amd chips is used to deep dive into low level metrics such as l1,l2 cache hit/miss, branching, tlb etc
+<!--SR:!2026-06-17,2,230-->
 
 
 #flashcards/systemengineering
