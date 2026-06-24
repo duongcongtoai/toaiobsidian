@@ -48,16 +48,16 @@ A successful [[Hardware Prefetcher]] reduces **Backend Bound** stalls (by preven
 In Top-Down Microarchitecture Analysis, what does it mean to be "Frontend Bound"?
 ?
 The execution backend is ready to do work, but the CPU stalled because it could not fetch or decode instructions fast enough (e.g., due to L1i cache misses, ITLB misses, or branch prediction fetch stalls).
-<!--SR:!2026-06-16,1,210-->
+<!--SR:!2026-06-24,2,210-->
 
 In Top-Down Analysis, what is the difference between "Memory Bound" and "Core Bound"?
 ?
 Both are subcategories of "Backend Bound" stalls. Memory Bound means the CPU is stalled waiting for data (cache misses, RAM latency). Core Bound means the CPU has the data but is waiting for execution resources (ALU/FPU contention).
-<!--SR:!2026-06-16,1,210-->
+<!--SR:!2026-06-24,2,210-->
 
 What does a high "Retiring" percentage indicate in Top-Down Analysis?
 ?
 It is a positive metric indicating that CPU Pipeline Slots were filled with useful work that completed successfully, implying highly productive CPU utilization.
-<!--SR:!2026-06-17,2,230-->
+<!--SR:!2026-06-27,5,230-->
 
 #flashcards/systemengineering

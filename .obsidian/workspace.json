@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/articles/2026-06-07 — Rust Performance Understanding Cache Behavior Beyond Benchmarks.md",
+                "file": "WIP/Radix hash join for datafusion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-07 — Rust Performance Understanding Cache Behavior Beyond Benchmarks"
+              "title": "Radix hash join for datafusion"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hardware-level perfr",
+                "query": "partial",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -181,12 +181,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "f1b7e1a9919ea0aa",
+  "active": "13e14de95bcd3d28",
   "lastOpenFiles": [
+    "Pasted image 20260624153239.png",
+    "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
+    "WIP/Radix hash join for datafusion.md",
+    "WIP/Datafusion vectorization playground.md",
+    "Untitled.md",
+    "Tasks/Analyze array_agg micro-optimization.md",
     "raw/articles/2026-06-07 — Rust Performance Understanding Cache Behavior Beyond Benchmarks.md",
     "Rust Performance Workflow.md",
-    "WIP/Datafusion vectorization playground.md",
-    "raw/articles/2026-06-07 — Hardware-Level Performance and DataFusion Aggregation.md",
     "personal/Templates/WIP Note.md",
     "Knowledge/Hardware Prefetcher.md",
     "WIP",
@@ -196,7 +200,6 @@
     "Bases/Tasks.base",
     "raw/articles/2026-06-07 — CPU Pipeline Utilization and Cache Performance Notes.md",
     "log.md",
-    "Tasks/Analyze array_agg micro-optimization.md",
     "Knowledge/CPU Pipeline Slots.md",
     "Knowledge/Speculative Execution.md",
     "Knowledge/CPU Top-Down Microarchitecture Analysis.md",
@@ -210,9 +213,6 @@
     "2026-06-09.md",
     "2026-06-08.md",
     "2026-06-07.md",
-    "index.md",
-    "README.md",
-    "Performance Profiling Tools.md",
     "2026-06-08.md~",
     "Ideas",
     "personal/fleet",

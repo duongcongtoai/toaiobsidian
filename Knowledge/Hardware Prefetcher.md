@@ -30,7 +30,7 @@ Prefetchers will stop aggressively fetching when they hit a **4 KiB Page Boundar
 What does the L1 prefetcher do? Give an example.
 ?
 It acts as a "Just-In-Time Courier" watching the Execution Unit. Imagine a loop iterating i64 integers. The cache line is 64 Bytes (holding 8 integers). While the CPU executes items 0-7, the L1 prefetcher predicts the next run and fetches items 8-15 from the L2 cache into the L1 cache.
-<!--SR:!2026-06-16,1,210-->
+<!--SR:!2026-06-24,2,210-->
 
 What does the L2 prefetcher do? Give an example.
 ?
@@ -40,6 +40,6 @@ It acts as an "Aggressive Scout" monitoring L1 access patterns. If the L1 prefet
 What causes a hardware prefetcher to stop fetching at a 4 KiB Page Boundary?
 ?
 When sequential reads cross the end of one 4 KiB Page and start the next, the Physical Address in RAM might not be contiguous. If the mapping for the *new* page is not already cached in the TLB, the prefetcher stops. This prevents the hardware from guessing the wrong physical address and triggering a catastrophic OS Page Fault.
-<!--SR:!2026-06-17,2,230-->
+<!--SR:!2026-06-27,5,230-->
 
 #flashcards/systemengineering 
